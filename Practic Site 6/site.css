@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+#header{
+	background-color: #008040;
+	height: 140px;
+}
+#header #text{
+	width: 840px;
+	min-width: 840px;
+	margin: 0px auto;
+}
+#header #text h1{
+	margin: 0;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+#header #text p{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 5px 0px;
+}
+#content #services{
+	width: 840px;
+	min-width: 840px;
+	margin: 30px auto;
+}
+#content #services h2{
+	margin: 0;
+	font-size: 28px;
+	text-align: center;
+}
+#content #services ol{
+	text-align: justify;
+	list-style-position: inside;
+	padding: 0;
+}
+#content #services li::marker{
+	color: red;
+	font-weight: bold;
+}
+#content #services li{
+	margin-bottom: 10px;
+}
+#content #contacts{
+	background-color: #C60304;
+	padding: 10px 0px;
+}
+#content #contacts #text{
+	width: 840px;
+	min-width: 840px;
+	margin: 0px auto;
+}
+#content #contacts h2{
+	margin: 0;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+}
+#content #contacts p{
+	color: white;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+#content #company{
+	width: 840px;
+	min-width: 840px;
+	margin: 30px auto;
+}
+#content #company h2{
+	margin: 0;
+	font-size: 28px;
+	text-align: center;
+}
+#content #company p{
+	text-align: justify;
+}
+#content #clients{
+	background-color: #FF8040;
+	padding:10px 0px 20px 0px;
+}
+#content #clients #frame{
+	width: 840px;
+	min-width: 840px;
+	margin: 0px auto;
+}
+#content #clients #frame h2{
+	margin: 0;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+#content #clients #frame table{
+	margin:0px auto;
+	border-spacing: 0px;
+}
+#content #clients #frame img{
+	display: block;
+	border: 1px solid black;
+}
+#content #clients #frame td{
+	margin: 3px;
+}
+#footer{
+	font-size: 12px;
+	background-color: #912F00;
+	color: white;
+	padding-top: 190px;
+	padding-bottom: 10px;
+	text-align: center;
+}
